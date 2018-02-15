@@ -44,12 +44,12 @@
 						</thead>
 						<tbody>
 							<%
+								// path where Innovator instances are installed
 								string root = "C:\\Program Files (x86)\\Aras";
 
 								// create a list of folder names you don't want listed
 								List<string> skip = new List<string>();
 								skip.Add("Aras Update");
-								skip.Add("Aras MyI People");
 								
 								foreach (string file_name in Directory.GetDirectories(root))
 								{
