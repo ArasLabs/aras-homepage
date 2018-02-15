@@ -26,6 +26,10 @@
 </head>
 
 <body>
+	<nav class="navbar navbar-dark bg-dark">
+		<!-- Navbar content -->
+		<a class="navbar-brand" href="#">SERVER NAME</a>
+</nav>
 	<div class="limiter">
 		<div class="container-table100">
 			<div class="wrap-table100">
