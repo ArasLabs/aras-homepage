@@ -34,49 +34,51 @@
 </head>
 
 <body>
-			<nav class="navbar navbar-toggleable-md navbar-dark bg-dark">
+	<nav class="navbar navbar-toggleable-md navbar-dark bg-dark">
 		<!-- Navbar content -->
 		<a class="navbar-brand" href="#">SERVER NAME</a>
 			
-					<ul class="nav justify-content-end">
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">My Links</a>
+		<ul class="nav justify-content-end">
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">My Links</a>
 
-							<div class="dropdown-menu">
-								<!-- Build a list of secondary links to display as dropdown items -->
-								<%
-									Dictionary<string,string> links_2 = new Dictionary<string,string>();
-									links_2["Subscriber Portal"] = "http://www.aras.com/SubscriberPortal/SubscriberLogon.aspx?ReturnUrl=%2fsubscriberportal%2fsupport.aspx";
-									links_2["Aras Roadmap"] = "https://www.aras.com/plm-roadmap/";
-									links_2["Aras Downloads"] = "https://www.aras.com/support/downloads/";
+				<div class="dropdown-menu">
+					<!-- Build a list of secondary links to display as dropdown items -->
+					<%
+						// create a dictionary of links you want to show in the dropdown list
+						Dictionary<string,string> links_2 = new Dictionary<string,string>();
+						links_2["Subscriber Portal"] = "http://www.aras.com/SubscriberPortal/SubscriberLogon.aspx?ReturnUrl=%2fsubscriberportal%2fsupport.aspx";
+						links_2["Aras Roadmap"] = "https://www.aras.com/plm-roadmap/";
+						links_2["Aras Downloads"] = "https://www.aras.com/support/downloads/";
 
-									foreach (KeyValuePair<string,string> link in links_2)
-									{
-										string el = "<a class='dropdown-item' href='" + link.Value + "' target='_new'>" + link.Key + "</a>";
-										Response.Write(el);
-									}
-								%>
-							</div>
-						</li>
-
-						<!-- Build a list of primary links to display across the nav bar -->
-						<%
-						Dictionary<string,string> links = new Dictionary<string,string>();
-						links["MyInnovator"] = "https://MyInnovator.com/";
-						links["GitHub"] = "https://github.com/";
-						links["Labs Blog"] = "http://community.aras.com/en/category/technique/aras-labs/";
-	
-						foreach (KeyValuePair<string,string> link in links)
+						foreach (KeyValuePair<string,string> link in links_2)
 						{
-							string el = "<li class='nav-item'><a class='nav-link' href='" + link.Value + "' target='_new'>" + link.Key + "</a></li>";
+							string el = "<a class='dropdown-item' href='" + link.Value + "' target='_new'>" + link.Key + "</a>";
 							Response.Write(el);
 						}
 					%>
-						
-				</ul>
-			
-			</nav>
-			<div class="limiter">
+				</div>
+			</li>
+
+			<!-- Build a list of primary links to display across the nav bar -->
+			<%
+				// create a dictionary of links you want to show in the nav bar
+				Dictionary<string,string> links = new Dictionary<string,string>();
+				links["MyInnovator"] = "https://MyInnovator.com/";
+				links["GitHub"] = "https://github.com/";
+				links["Labs Blog"] = "http://community.aras.com/en/category/technique/aras-labs/";
+
+				foreach (KeyValuePair<string,string> link in links)
+				{
+					string el = "<li class='nav-item'><a class='nav-link' href='" + link.Value + "' target='_new'>" + link.Key + "</a></li>";
+					Response.Write(el);
+				}
+			%>
+				
+		</ul>
+
+	</nav>
+	<div class="limiter">
 		<div class="container-table100">
 			<div class="wrap-table100">
 				<div class="table100">
