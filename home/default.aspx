@@ -23,6 +23,14 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<!--===============================================================================================-->
+	<!-- 
+		choose or customize a stylesheet to style the page background 
+		find stylesheets in home/css/
+	-->
+	<link rel="stylesheet" type="text/css" href="css/blue-purple.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/blue-green.css">
+	<link rel="stylesheet" type="text/css" href="css/photo.css"> -->
+	<!--===============================================================================================-->
 </head>
 
 <body>

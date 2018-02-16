@@ -105,11 +105,6 @@ iframe {
 .container-table100 {
   width: 100%;
   min-height: 100vh;
-  background: #c850c0;
-  background: -webkit-linear-gradient(45deg, #4158d0, #c850c0);
-  background: -o-linear-gradient(45deg, #4158d0, #c850c0);
-  background: -moz-linear-gradient(45deg, #4158d0, #c850c0);
-  background: linear-gradient(45deg, #4158d0, #c850c0);
 
   display: -webkit-box;
   display: -webkit-flex;
@@ -144,7 +139,7 @@ table td, table th {
 }
 table thead tr {
   height: 60px;
-  background: #36304a;
+  background: #343a40;
 }
 table tbody tr {
   height: 50px;
