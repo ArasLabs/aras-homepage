@@ -26,14 +26,28 @@ Works for all versions of Aras Innovator.
 5. If there are any subfolders you don't want listed in the table, add them to the skip list.
 
     ```
-    skip.Add("folder_name");
+    // create a list of folder names you don't want listed
+    List<string> skip = new List<string>();
+    skip.Add("Aras Update");
     ```
 
-6. Save the `default.aspx` file.
+6. If you want to customize the background style, you can choose or edit a stylesheet.
+
+    ```
+    <!-- 
+    choose or customize a stylesheet to style the page background 
+    find stylesheets in home/css/
+    -->
+	<link rel="stylesheet" type="text/css" href="css/blue-purple.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/blue-green.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/photo.css"> -->
+    ```
+
+7. Save the `default.aspx` file.
 
 ## Usage
 
-![Screenshot](./Screenshots/screenshot.PNG)
+![Screenshot](./Screenshots/screenshot.gif)
 
 Open your browser to http://servername/home. Bookmark the url or make it your browser homepage for easy access to your server's Innovator instances.
 
