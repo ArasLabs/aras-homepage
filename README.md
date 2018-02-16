@@ -69,6 +69,8 @@ Project inspired by George J. Carrette.
 
 Table style is based on [this template](https://colorlib.com/etc/tb/Table_Responsive_v1/index.html).
 
+Background photos are sourced from [UnSplash](https://unsplash.com/).
+
 ## License
 
 Aras Labs projects are published to Github under the MIT license. See the [LICENSE file](./LICENSE.md) for license rights and limitations.
