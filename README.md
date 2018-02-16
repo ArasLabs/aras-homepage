@@ -65,6 +65,7 @@ Works for all versions of Aras Innovator.
 ## Usage
 
 ![Screenshot](./Screenshots/screenshot.gif)
+*Screenshot demonstrates different custom styles. Project does not automatically rotate stylesheets.*
 
 Open your browser to http://servername/home. Bookmark the url or make it your browser homepage for easy access to your server's Innovator instances.
 
