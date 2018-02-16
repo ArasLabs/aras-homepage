@@ -278,3 +278,7 @@ tbody tr:hover {
     padding-right: 15px;
   }
 }
+
+nav a {
+  color: white;
+}
