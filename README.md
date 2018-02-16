@@ -13,19 +13,20 @@ Works for all versions of Aras Innovator.
 3. Open `home\default.aspx` for editing.
 4. Set the server name in the nav bar.
 
-    ```
+    ```(html)
     <!-- Navbar content -->
     <a class="navbar-brand" href="#">SERVER NAME</a> 
     ```
 5. Set the root variable to the folder where your Aras instances are installed.
 
-    ```
+    ```(html)
+    // path where Innovator instances are installed
     string root = "C:\\Program Files (x86)\\Aras";
     ```
 
 5. If there are any subfolders you don't want listed in the table, add them to the skip list.
 
-    ```
+    ```(html)
     // create a list of folder names you don't want listed
     List<string> skip = new List<string>();
     skip.Add("Aras Update");
@@ -33,7 +34,7 @@ Works for all versions of Aras Innovator.
 
 6. If you want to customize the background style, you can choose or edit a stylesheet.
 
-    ```
+    ```(html)
     <!-- 
     choose or customize a stylesheet to style the page background 
     find stylesheets in home/css/
@@ -43,7 +44,23 @@ Works for all versions of Aras Innovator.
 	<!-- <link rel="stylesheet" type="text/css" href="css/photo.css"> -->
     ```
 
-7. Save the `default.aspx` file.
+7. If you want to show custom links in the navigation bar, you can add them to the `links` Dictionary.
+
+    ```(html)
+    // create a dictionary of links you want to show in the nav bar
+    Dictionary<string,string> links = new Dictionary<string,string>();
+    links["MyInnovator"] = "https://MyInnovator.com/";
+    ```
+
+8. If you have links you want to show in a dropdown list from the navigation bar, you can add them to the `links_2` Dictionary.
+
+    ```(html)
+        // create a dictionary of links you want to show in the dropdown list
+        Dictionary<string,string> links_2 = new Dictionary<string,string>();
+		links_2["Aras Roadmap"] = "https://www.aras.com/plm-roadmap/";
+    ```
+
+9. Save the `default.aspx` file.
 
 ## Usage
 
