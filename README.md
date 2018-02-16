@@ -1,30 +1,35 @@
 # Aras Homepage
 
+This project sets up a "homepage" that lists the Aras Innovator instances installed on a server. The list contains links to each instance's login page and Nash page. The homepage acts as a directory for easy access to your Aras Innovator installations.
 
-
-## History
-
-Release | Notes
---------|--------
-[v1.0.0](https://github.com/ArasLabs/aras-homepage/releases/tag/v1.0.0) | First release.
-
-#### Supported Aras Versions
-
-Project | Aras
---------|------
-[v1.0.0](https://github.com/ArasLabs/aras-homepage/releases/tag/v1.0.0) | All
+Works for all versions of Aras Innovator.
 
 ## Installation
 
 ### Install Steps
 
 1. Download the aras-homepage project.
-2. Copy the **home** folder from the project and paste it into C:\inetpub\wwwroot on the server.
-3. Open home\default.aspx for editing.
-4. Set the root variable to the folder where your Aras instances are installed.
+2. Copy the `home` folder from the project and paste it into `C:\inetpub\wwwroot` on the server.
+3. Open `home\default.aspx` for editing.
+4. Set the server name in the nav bar.
+
+    ```
+    <!-- Navbar content -->
+    <a class="navbar-brand" href="#">SERVER NAME</a> 
+    ```
+5. Set the root variable to the folder where your Aras instances are installed.
+
+    ```
+    string root = "C:\\Program Files (x86)\\Aras";
+    ```
+
 5. If there are any subfolders you don't want listed in the table, add them to the skip list.
-    * `skip.Add("folder_name");`
-6. Save the default.aspx file.
+
+    ```
+    skip.Add("folder_name");
+    ```
+
+6. Save the `default.aspx` file.
 
 ## Usage
 
@@ -44,7 +49,11 @@ For more information on contributing to this project, another Aras Labs project,
 
 ## Credits
 
-Sample application created by Aras Development.
+Created by Eli Donahue. 
+
+Project inspired by George J. Carrette.
+
+Table style is based on [this template](https://colorlib.com/etc/tb/Table_Responsive_v1/index.html).
 
 ## License
 
