@@ -55,9 +55,9 @@ Works for all versions of Aras Innovator.
 8. If you have links you want to show in a dropdown list from the navigation bar, you can add them to the `links_2` Dictionary.
 
     ```(html)
-        // create a dictionary of links you want to show in the dropdown list
-        Dictionary<string,string> links_2 = new Dictionary<string,string>();
-		links_2["Aras Roadmap"] = "https://www.aras.com/plm-roadmap/";
+    // create a dictionary of links you want to show in the dropdown list
+    Dictionary<string,string> links_2 = new Dictionary<string,string>();
+    links_2["Aras Roadmap"] = "https://www.aras.com/plm-roadmap/";
     ```
 
 9. Save the `default.aspx` file.
