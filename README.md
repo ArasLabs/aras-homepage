@@ -69,6 +69,8 @@ Works for all versions of Aras Innovator.
 
 Open your browser to http://servername/home. Bookmark the url or make it your browser homepage for easy access to your server's Innovator instances.
 
+> Note: The **Login as Admin** link only works for systems configured for Windows Authentication. For all other systems, it will just bring up the login page.
+
 ## Contributing
 
 1. Fork it!
