@@ -44,6 +44,8 @@ Works for all versions of Aras Innovator.
 	<!-- <link rel="stylesheet" type="text/css" href="css/photo.css"> -->
     ```
 
+    Tip: Here's a great site with a gallery of color gradients: [https://uigradients.com/](https://uigradients.com/).
+
 7. If you want to show custom links in the navigation bar, you can add them to the `links` Dictionary.
 
     ```(html)
