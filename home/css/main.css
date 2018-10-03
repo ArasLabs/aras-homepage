@@ -216,7 +216,8 @@ tbody tr:hover {
     padding: 37px 0;
   }
   table tbody tr td {
-    padding-left: 40% !important;
+    padding: 0px !important;
+	text-align: center;
     margin-bottom: 24px;
   }
   table tbody tr td:last-child {
@@ -232,24 +233,6 @@ tbody tr:hover {
     width: 40%;
     left: 30px;
     top: 0;
-  }
-  table tbody tr td:nth-child(1):before {
-    content: "Date";
-  }
-  table tbody tr td:nth-child(2):before {
-    content: "Order ID";
-  }
-  table tbody tr td:nth-child(3):before {
-    content: "Name";
-  }
-  table tbody tr td:nth-child(4):before {
-    content: "Price";
-  }
-  table tbody tr td:nth-child(5):before {
-    content: "Quantity";
-  }
-  table tbody tr td:nth-child(6):before {
-    content: "Total";
   }
 
   .column4,
