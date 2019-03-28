@@ -13,7 +13,6 @@ Release | Notes
 
 Project | Aras
 --------|------
-[v1.0.1](https://github.com/ArasLabs/aras-homepage/releases/tag/v1.0.1) | All Aras Versions
 [v1.0.0](https://github.com/ArasLabs/aras-homepage/releases/tag/v1.0.0) | All Aras Versions
 
 
