@@ -6,7 +6,7 @@ This project sets up a "homepage" that lists the Aras Innovator instances instal
 
 Release | Notes
 --------|--------
-[v1.0.0](https://github.com/ArasLabs/aras-homepage/releases/tag/v1.0.0) | First release. Tested on Internet Explorer 11, Firefox 38 ESR, Chrome.
+[v1.0.0](https://github.com/ArasLabs/aras-homepage/releases/tag/v1.0.0) | First release. Tested on Internet Explorer 11, Firefox, Chrome.
 
 #### Supported Aras Versions
 
