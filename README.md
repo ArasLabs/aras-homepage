@@ -2,7 +2,18 @@
 
 This project sets up a "homepage" that lists the Aras Innovator instances installed on a server. The list contains links to each instance's login page and Nash page. The homepage acts as a directory for easy access to your Aras Innovator installations.
 
-Works for all versions of Aras Innovator.
+## History
+
+Release | Notes
+--------|--------
+[v1.0.0](https://github.com/ArasLabs/aras-homepage/releases/tag/v1.0.0) | First release. Tested on Internet Explorer, Edge, Firefox, Chrome.
+
+#### Supported Aras Versions
+
+Project | Aras
+--------|------
+[v1.0.0](https://github.com/ArasLabs/aras-homepage/releases/tag/v1.0.0) | All Aras Versions
+
 
 ## Installation
 
